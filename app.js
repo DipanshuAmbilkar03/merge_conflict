@@ -7,5 +7,4 @@ const Bid = require('../model/bid');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const ensureAuthenticated = require('../middleware/post_auth');
-const path = require('path');
 const fs = require('fs'); 
