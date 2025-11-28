@@ -10,3 +10,4 @@ const ensureAuthenticated = require('../middleware/post_auth');
 const path = require('path');
 const fs = require('fs'); 
 
+app.use("view",ViewTransition);
